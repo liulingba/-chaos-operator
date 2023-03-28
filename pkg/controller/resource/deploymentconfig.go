@@ -9,7 +9,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 
-	chaosTypes "github.com/litmuschaos/chaos-operator/pkg/controller/types"
+	chaosTypes "github.com/liulingba/chaos-operator/pkg/controller/types"
 )
 
 var (

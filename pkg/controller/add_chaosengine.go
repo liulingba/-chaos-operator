@@ -17,7 +17,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/litmuschaos/chaos-operator/pkg/controller/chaosengine"
+	"github.com/liulingba/chaos-operator/pkg/controller/chaosengine"
 )
 
 func init() {

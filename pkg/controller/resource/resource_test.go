@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	litmusFakeClientset "github.com/litmuschaos/chaos-operator/pkg/client/clientset/versioned/fake"
+	litmusFakeClientset "github.com/liulingba/chaos-operator/pkg/client/clientset/versioned/fake"
 	appv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
@@ -29,8 +29,8 @@ import (
 	dynamicfake "k8s.io/client-go/dynamic/fake"
 	"k8s.io/client-go/kubernetes/fake"
 
-	litmuschaosv1alpha1 "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	chaosTypes "github.com/litmuschaos/chaos-operator/pkg/controller/types"
+	litmuschaosv1alpha1 "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
+	chaosTypes "github.com/liulingba/chaos-operator/pkg/controller/types"
 )
 
 var (

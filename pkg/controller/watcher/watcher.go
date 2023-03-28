@@ -29,8 +29,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	litmuschaosv1alpha1 "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	chaosTypes "github.com/litmuschaos/chaos-operator/pkg/controller/types"
+	litmuschaosv1alpha1 "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
+	chaosTypes "github.com/liulingba/chaos-operator/pkg/controller/types"
 )
 
 // WatchForRunnerPod creates watcher for Chaos Runner Pod

@@ -40,9 +40,9 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 	"sigs.k8s.io/controller-runtime/pkg/runtime/signals"
 
-	"github.com/litmuschaos/chaos-operator/pkg/analytics"
-	"github.com/litmuschaos/chaos-operator/pkg/apis"
-	"github.com/litmuschaos/chaos-operator/pkg/controller"
+	"github.com/liulingba/chaos-operator/pkg/analytics"
+	"github.com/liulingba/chaos-operator/pkg/apis"
+	"github.com/liulingba/chaos-operator/pkg/controller"
 )
 
 // Change below variables to serve metrics on different host or port.

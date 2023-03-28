@@ -24,7 +24,7 @@ import (
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	chaosTypes "github.com/litmuschaos/chaos-operator/pkg/controller/types"
+	chaosTypes "github.com/liulingba/chaos-operator/pkg/controller/types"
 )
 
 // CheckStatefulSetAnnotation will check the annotation of StatefulSet

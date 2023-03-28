@@ -34,9 +34,9 @@ package types
 import (
 	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 
-	"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	litmuschaosv1alpha1 "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	"github.com/litmuschaos/chaos-operator/pkg/controller/utils"
+	"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
+	litmuschaosv1alpha1 "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
+	"github.com/liulingba/chaos-operator/pkg/controller/utils"
 )
 
 var (

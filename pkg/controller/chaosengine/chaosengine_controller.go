@@ -44,14 +44,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	"github.com/litmuschaos/chaos-operator/pkg/analytics"
-	litmuschaosv1alpha1 "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
-	"github.com/litmuschaos/chaos-operator/pkg/controller/resource"
-	chaosTypes "github.com/litmuschaos/chaos-operator/pkg/controller/types"
-	"github.com/litmuschaos/chaos-operator/pkg/controller/utils"
-	"github.com/litmuschaos/chaos-operator/pkg/controller/watcher"
-	dynamicclientset "github.com/litmuschaos/chaos-operator/pkg/dynamic"
-	clientset "github.com/litmuschaos/chaos-operator/pkg/kubernetes"
+	"github.com/liulingba/chaos-operator/pkg/analytics"
+	litmuschaosv1alpha1 "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1"
+	"github.com/liulingba/chaos-operator/pkg/controller/resource"
+	chaosTypes "github.com/liulingba/chaos-operator/pkg/controller/types"
+	"github.com/liulingba/chaos-operator/pkg/controller/utils"
+	"github.com/liulingba/chaos-operator/pkg/controller/watcher"
+	dynamicclientset "github.com/liulingba/chaos-operator/pkg/dynamic"
+	clientset "github.com/liulingba/chaos-operator/pkg/kubernetes"
 )
 
 const finalizer = "chaosengine.litmuschaos.io/finalizer"

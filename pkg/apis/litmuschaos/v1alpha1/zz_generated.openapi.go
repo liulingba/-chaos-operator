@@ -30,15 +30,15 @@ import (
 
 func GetOpenAPIDefinitions(ref common.ReferenceCallback) map[string]common.OpenAPIDefinition {
 	return map[string]common.OpenAPIDefinition{
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngine":           schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngine(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec":       schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngineSpec(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus":     schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngineStatus(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperiment":       schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperiment(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec":   schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperimentSpec(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus": schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperimentStatus(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplate":         schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplate(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec":     schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplateSpec(ref),
-		"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus":   schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplateStatus(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngine":           schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngine(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec":       schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngineSpec(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus":     schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngineStatus(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperiment":       schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperiment(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec":   schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperimentSpec(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus": schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperimentStatus(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplate":         schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplate(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec":     schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplateSpec(ref),
+		"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus":   schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplateStatus(ref),
 	}
 }
 
@@ -69,19 +69,19 @@ func schema_pkg_apis_litmuschaos_v1alpha1_ChaosEngine(ref common.ReferenceCallba
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec", "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineSpec", "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosEngineStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -136,19 +136,19 @@ func schema_pkg_apis_litmuschaos_v1alpha1_ChaosExperiment(ref common.ReferenceCa
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec", "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentSpec", "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosExperimentStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
@@ -203,19 +203,19 @@ func schema_pkg_apis_litmuschaos_v1alpha1_ChaosTemplate(ref common.ReferenceCall
 					},
 					"spec": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec"),
 						},
 					},
 					"status": {
 						SchemaProps: spec.SchemaProps{
-							Ref: ref("github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus"),
+							Ref: ref("github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus"),
 						},
 					},
 				},
 			},
 		},
 		Dependencies: []string{
-			"github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec", "github.com/litmuschaos/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
+			"github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateSpec", "github.com/liulingba/chaos-operator/pkg/apis/litmuschaos/v1alpha1.ChaosTemplateStatus", "k8s.io/apimachinery/pkg/apis/meta/v1.ObjectMeta"},
 	}
 }
 
